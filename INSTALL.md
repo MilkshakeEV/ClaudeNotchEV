@@ -45,6 +45,18 @@ Launch at Login is a switch in the same window (macOS shows a "Background item a
 
 After that, **move the pointer onto the tab** at the edge of your screen to see the details.
 
+## 4. Make everything sync (Settings → Setup)
+Open **Settings → Setup** for a checklist of six steps, each with a live ✓ when it's done and a
+button that does it: keep the app in Applications, Launch at Login, install the Claude Code
+hooks, sign Claude Code in, turn on plan usage, and allow Accessibility for exact Claude Chat.
+
+- **Sign Claude Code in:** plan usage needs the login Claude Code saves on this Mac. In Terminal,
+  type `claude` and press Return, then type `/login` exactly (with the slash) and press Return.
+  Choose "Claude account with subscription", click **Authorize** in the browser, then type `/exit`.
+- **Keychain prompts:** when macOS asks whether ClaudeNotchEV or `security` may use
+  "Claude Code-credentials", type your Mac password and click **Always Allow**.
+- **Sessions that were already open** when you installed the hooks: restart them once.
+
 ## Updating
 Open **Settings → About** and click **Check for Updates**. If a newer version exists, click
 **Open Release Page**, download the new DMG and drag the app into Applications again to replace

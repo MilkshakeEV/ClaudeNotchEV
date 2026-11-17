@@ -30,6 +30,10 @@
    check it: click **Done**, then open **System Settings → Privacy & Security**, scroll to
    **Security** and click **Open Anyway** next to ClaudeNotchEV. You only do this once.
 
+4. Open **Settings → Setup** and follow the checklist until every step has a green tick. It
+   covers the Claude Code hooks, signing Claude Code in for plan usage, and Accessibility for
+   exact Claude Chat.
+
 More detail, including what to do if the Open Anyway button doesn't appear: [INSTALL.md](INSTALL.md).
 
 ## What it shows
