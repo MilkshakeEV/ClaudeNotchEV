@@ -59,8 +59,10 @@ hooks, sign Claude Code in, turn on plan usage, and allow Accessibility for exac
 
 ## Updating
 Open **Settings → About** and click **Check for Updates**. If a newer version exists, click
-**Open Release Page**, download the new DMG and drag the app into Applications again to replace
-the old one. Everything is replaced, including the icon; your settings and permissions are kept.
+**Install and Relaunch**: ClaudeNotchEV downloads it from GitHub, checks it, replaces itself and
+reopens. Everything is replaced, including the icon; your settings and permissions are kept.
+(If your version has no Install and Relaunch button yet, download the DMG from the release page
+once and drag the app into Applications to replace the old one.)
 
 ## Removing it
 Quit ClaudeNotchEV from its menu bar icon. If you installed the Claude Code hooks, remove them

@@ -49,14 +49,16 @@ Anything that's a guess is tagged **Estimated**. Sources the app can't observe o
 
 ## Updates
 
-Open **Settings → About** and click **Check for Updates**. If there's a newer version, the
-release page opens; download the new DMG and drag the app into Applications again. Everything is replaced,
-including the icon, and your settings are kept.
+Open **Settings → About** and click **Check for Updates**. If there's a newer version, click
+**Install and Relaunch**: the app downloads it from this page's releases, checks its checksum and
+signature, replaces itself and reopens. Everything is replaced, including the icon, and your
+settings are kept. (If your version has no Install and Relaunch button yet, download the DMG once
+and drag the app into Applications instead.)
 
 ## Privacy
 
 No accounts, no tracking. Nothing leaves your Mac except **Check for Updates** (asks GitHub for
-the latest release, only when you click it) and **plan usage**, if you turn it on (asks Claude's
+the latest release, and downloads it if you click Install, only when you click) and **plan usage**, if you turn it on (asks Claude's
 usage service with your own Claude Code login). Your messages are never read.
 
 Not affiliated with or endorsed by Anthropic.
